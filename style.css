@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+body {
+    font-family: 'Mochiy Pop One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFF8E1; /* 暖かみのあるクリーム色 */
+    color: #5D4037; /* 焦げ茶色 */
+}
+
+#question-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+}
+
+#question {
+    font-size: 1.8em; /* 少し大きく */
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+#options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* ボタン間の隙間を広げる */
+}
+
+#options button {
+    padding: 15px 30px;
+    font-size: 1.1em;
+    font-family: 'Mochiy Pop One', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px; /* より丸く */
+    background-color: #FFB74D; /* 暖色系のオレンジ */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+#options button:hover {
+    background-color: #FFA726; /* 少し濃いオレンジ */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* テキスト入力用のスタイル */
+#options input[type="tel"] {
+    padding: 15px;
+    font-size: 1.1em;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border: 2px solid #FFB74D;
+    border-radius: 30px;
+    text-align: center;
+    width: 220px;
+    margin-right: 10px;
+    background-color: #FFFDE7; /* 薄い黄色 */
+}
+
+#options input[type="tel"]:focus {
+    outline: none;
+    border-color: #FF9800;
+    box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.3);
+}
+.line-button {
+    display: inline-block;
+    padding: 15px 40px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    background-color: #06C755; /* LINEの緑 */
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.line-button:hover {
+    background-color: #05b24c;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
