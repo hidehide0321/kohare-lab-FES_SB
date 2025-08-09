@@ -1,4 +1,3 @@
-
 // --- Elements ---
 const questionContainer = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
@@ -125,7 +124,7 @@ async function submitAnswers() {
             <img src="images/すいかっ娘。.jpg" alt="すいかっ娘。">
             <p>ご入力ありがとうございました！</p>
             <p>この画面をスタッフに見せてね！</p>
-            <a href="https.ee/Q59ibyF" class="line-button" target="_blank" rel="noopener noreferrer">LINEで友だち登録</a>
+            <a href="https://lin.ee/Z71jtyA" class="line-button" target="_blank" rel="noopener noreferrer">LINEで友だち登録</a>
         `;
         } else {
             questionContainer.innerHTML = `<p>送信に失敗しました。お手数ですが、もう一度お試しください。</p><p>エラー: ${result.message || '不明'}</p>`;
